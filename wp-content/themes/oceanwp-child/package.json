@@ -10,16 +10,23 @@
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^9.5.0",
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.26.5",
+    "cssnano": "^4.1.10",
     "gulp": "^4.0.0",
+    "gulp-eslint": "^5.0.0",
     "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-newer": "^1.4.0",
     "gulp-plumber": "^1.2.1",
     "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "gulp-sass-lint": "^1.4.0"
+    "gulp-sass-lint": "^1.4.0",
+    "webpack": "^4.30.0"
   },
   "dependencies": {
-    "boostrap": "^4.3.1",
+    "boostrap": "^2.0.0",
+    "del": "^4.1.1",
     "gulp-sourcemaps": "^2.6.5"
   }
 }

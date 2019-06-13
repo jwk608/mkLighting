@@ -1147,19 +1147,12 @@ ul.owp-popup-text li strong {
     margin: 0 0 16px;
 }
 .owp-newsletter form.klaviyo_styling {
-   	display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
     max-width: 100%;
     margin: 0;
 }
 .owp-newsletter .klaviyo_styling .klaviyo_field_group {
-    margin-right: 6px;
     margin-bottom: 0;
-    -webkit-box-flex: 1;
-    flex-grow: 1;
+    text-align: center;
 }
 .owp-newsletter .klaviyo_styling input[type=email] {
     width: 100%;
@@ -1172,14 +1165,41 @@ ul.owp-popup-text li strong {
 .owp-newsletter .klaviyo_styling input[type=email]:focus {
     border-color: #aaa;
 }
-.owp-newsletter .klaviyo_styling .klaviyo_form_actions {
-    -webkit-box-flex: 0;
-    flex-grow: 0;
+.owp-newsletter .klaviyo_styling .klaviyo_form_checkboxes {
+    margin: 10px 0;
+}
+.owp-newsletter .klaviyo_styling .klaviyo_helptext {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+.owp-newsletter .klaviyo_styling .klaviyo_field_group label {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.owp-newsletter .klaviyo_styling .klaviyo_field_group label input {
+    width: 15px;
+    height: 15px;
+    margin: 0 6px;
+}
+.owp-newsletter .klaviyo_styling .klaviyo_gdpr_text {
+    margin-top: 15px;
+    font-size: 11px;
+    font-weight: 400;
+}
+.owp-newsletter .klaviyo_styling .klaviyo_gdpr_text a {
+    color: #333;
+}
+.owp-newsletter .klaviyo_styling .klaviyo_gdpr_text a:hover {
+    text-decoration: underline;
 }
 .owp-newsletter .klaviyo_styling .klaviyo_submit_button {
     background-color: #13aff0;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
+    width: 100%;
     height: 42px;
     text-transform: uppercase;
     letter-spacing: 0.4px;
@@ -1196,6 +1216,12 @@ ul.owp-popup-text li strong {
 .owp-newsletter .klaviyo_styling .klaviyo_messages .success_message,
 .owp-newsletter .klaviyo_styling .klaviyo_messages .error_message {
     margin-bottom: 0;
+}
+.owp-newsletter .klaviyo_styling .klaviyo_messages .success_message {
+    color: #3fc351;
+}
+.owp-newsletter .klaviyo_styling .klaviyo_messages .error_message {
+    color: #fe5252;
 }
 
 .owp-ready-wrap .owp-wizard-setup-actions {
@@ -1265,10 +1291,6 @@ ul.owp-popup-text li strong {
 }
 
 @media only screen and (max-width: 640px) {
-	.owp-newsletter .klaviyo_styling .klaviyo_field_group {
-	    margin-right: 0;
-	}
-
 	.owp-newsletter .klaviyo_styling .klaviyo_form_actions {
 	    margin-top: 10px;
 	}
