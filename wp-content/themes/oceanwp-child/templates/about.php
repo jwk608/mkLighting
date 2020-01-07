@@ -16,7 +16,7 @@ get_header();
 </div>
 
 </section>
-<section class="section-gray content about">
+<section class="section-gray content about ha-waypoint " data-animate-down="ha-header-small" data-animate-up="ha-header-large">
     <h2 class="text-center">Save both money and energy with programs</h2>
     <div class="three-col">
       <div class="col-item">

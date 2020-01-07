@@ -61,7 +61,7 @@ function watch() {
 
         // If you are already serving your website locally using something like apache
         // You can use the proxy setting to proxy that instead
-         proxy: "localhost/mklighting"
+         proxy: "http://mklighting.test:3001"
     });
     gulp.watch(paths.styles.src, style);
     // We should tell gulp which files to watch to trigger the reload

@@ -1,0 +1,53 @@
+<?php
+/**
+ * Main Header Layout
+ *
+ * @package OceanWP WordPress theme
+ */
+
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
+?>
+    <header id="ha-header" class="ha-header ha-header-large">
+        <div class="ha-header-perspective">
+            <div class="ha-header-front">
+                <h1><span>Header Effects</span></h1>
+                <nav>
+                    <a>‹ Previous Demo</a>
+                    <a>Something</a>
+                    <a>Anything</a>
+                    <a>Back to the article</a>
+                </nav>
+            </div>
+            <div class="ha-header-bottom">
+                <nav>
+                    <a>Dalliance</a>
+                    <a>Inglenook</a>
+                    <a>Lagniappe</a>
+                    <a>Mellifluous</a>
+                    <a>Erstwhile</a>
+                    <a>Wafture</a>
+                    <a>Serendipity</a>
+                    <a>Love</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+<!--    <nav>-->
+<!--        <div class="logo">-->
+<!--            <img src="logo.png" alt="" class="logo">-->
+<!--        </div>-->
+<!--        <ul>-->
+<!--            <li><a href="--><?php //echo esc_url( home_url( '/' ) ); ?><!--" class="active">Home</a></li>-->
+<!--            <li><a href="/about-us">About</a></li>-->
+<!--            <li><a href="/gallery">Gallery</a></li>-->
+<!--            <li><a href="/contact">Contact</a></li>-->
+<!--            <li><a href="/services">Services</a></li>-->
+<!--        </ul>-->
+<!--    </nav>-->
+
+<?php
+
+do_action( 'ocean_after_header' ); ?>

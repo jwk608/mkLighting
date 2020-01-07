@@ -1,12 +1,14 @@
   /*about page specific*/
-
+  section.content.services {
+    padding: 0 100px 30px 100px;
+  }
   .about {
-      
+
     p { 
       margin: 0
     }
-    padding: 0 100px;
-      
+    padding: 0 100px 30px 100px;
+
     .fa { 
         font-size: 48px !important;
         line-height: 1!important;
