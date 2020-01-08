@@ -22,5 +22,4 @@ function mk_scripts(){
     wp_enqueue_script( 'helper', get_stylesheet_directory_uri() . "/js/helper.js");
 
 
-
 }

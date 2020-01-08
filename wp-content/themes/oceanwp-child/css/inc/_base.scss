@@ -31,7 +31,7 @@
     background-image: url("assets/images/alternative-energy-background-blue-1036936.jpg");
   
     /* Set a specific height */
-    height: 500px; 
+    height: 1000px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -100,8 +100,9 @@
 
 .pop-div-wrapper {
     width: 75%;
-
+    height: 1000px;
 }
+
 .pop-div {
   padding-top: 80px;
   padding-right: 20px;
@@ -113,7 +114,9 @@
 }
 
 .box-shadow { 
-  box-shadow: 10px 10px 0px rgba(0,0,0,.05)
+  box-shadow: 10px 10px 0px rgba(0,0,0,.05);
+  height: 800px;
+
 }
 
   
