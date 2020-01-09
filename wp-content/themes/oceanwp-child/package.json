@@ -25,6 +25,7 @@
     "webpack": "^4.30.0"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "boostrap": "^2.0.0",
     "del": "^4.1.1",
     "gulp-sourcemaps": "^2.6.5"
