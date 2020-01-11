@@ -10,15 +10,17 @@ if ( ! defined( 'ABSPATH' ) ) {
     exit;
 }
 ?>
-    <header id="ha-header" class="ha-header ha-header-large">
+    <header id="ha-header" class="ha-header ha-header-large"
+
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
         <div class="ha-header-perspective">
             <div class="ha-header-front">
                 <h1><span>Header Effects</span></h1>
                 <nav>
                     <a>‹ Previous Demo</a>
-                    <a>Something</a>
-                    <a>Anything</a>
-                    <a>Back to the article</a>
+      
                 </nav>
             </div>
             <div class="ha-header-bottom">

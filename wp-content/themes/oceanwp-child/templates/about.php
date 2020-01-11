@@ -8,24 +8,21 @@
 get_header(); 
  
 ?>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-<section>
 
-<div class="parallax">   
+<section data-aos="fade-down"
+         data-aos-easing="linear"
+         data-aos-duration="1500">
+
+<div class="parallax" >
 <h1>About us</h1>
 
 </div>
 
 </section>
-<section class="section-gray content about ha-waypoint "
-         data-animate-down="ha-header-small"
-         data-animate-up="ha-header-large"
-         data-aos="fade-down"
-         data-aos-easing="linear"
-         data-aos-duration="1500">
+<section class="section-gray content about ha-waypoint"   data-animate-down="ha-header-small" data-animate-up="ha-header-large" >
 
->
+
     <h2 class="text-center">Save both money and energy with programs</h2>
     <div class="three-col">
       <div class="col-item">
@@ -51,7 +48,7 @@ get_header();
       </p>
 </section>
 <div class="pop-div-wrapper">
-  <div class="pop-div box-shadow">hey</div>
+  <div class="pop-div box-shadow" data-aos="fade-down">hey</div>
 
 </div>
 <section class="content services">
@@ -79,8 +76,10 @@ get_header();
         LED - is going through major overhauls as part of an intelligent revolution in the lighting industry. We started MK Lighting with a vision of sustaining our environment by providing energy efficient lighting solutions. We strive to reinforce our belief in meeting intelligence in every aspect of our work.
       </p>
 </section>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 <?php
 
 get_footer(); 
