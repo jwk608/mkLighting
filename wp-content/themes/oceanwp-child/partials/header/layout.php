@@ -25,14 +25,11 @@ if ( ! defined( 'ABSPATH' ) ) {
             </div>
             <div class="ha-header-bottom">
                 <nav>
-                    <a>Dalliance</a>
-                    <a>Inglenook</a>
-                    <a>Lagniappe</a>
-                    <a>Mellifluous</a>
-                    <a>Erstwhile</a>
-                    <a>Wafture</a>
-                    <a>Serendipity</a>
-                    <a>Love</a>
+                    <a>HOME</a>
+                    <a>ABOUT</a>
+                    <a>PROJECTS</a>
+                    <a>SOLUITION</a>
+                    <a>CONTACT US</a>
                 </nav>
             </div>
         </div>

@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d12212fc-d574-4774-b577-00dc11114210" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/oceanwp-child/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/oceanwp-child/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/oceanwp-child/partials/header/layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/oceanwp-child/partials/header/layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/oceanwp-child/templates/about.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/oceanwp-child/templates/about.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/elementor/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/elementor/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/uploads/elementor/css/post-26.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/uploads/elementor/css/post-26.css" afterDir="false" />
-    </list>
+    <list default="true" id="d12212fc-d574-4774-b577-00dc11114210" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +104,7 @@
       <workItem from="1578531692802" duration="4412000" />
       <workItem from="1578625736482" duration="93000" />
       <workItem from="1578626537492" duration="546000" />
-      <workItem from="1578714909367" duration="1387000" />
+      <workItem from="1578714909367" duration="1769000" />
     </task>
     <servers />
   </component>
