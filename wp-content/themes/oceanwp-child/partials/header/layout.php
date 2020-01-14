@@ -26,7 +26,6 @@ if ( ! defined( 'ABSPATH' ) ) {
             <div class="ha-header-bottom">
                 <nav>
                     <a>HOME</a>
-                    <a>ABOUT</a>
                     <a>PROJECTS</a>
                     <a>SOLUITION</a>
                     <a>CONTACT US</a>
