@@ -76,10 +76,7 @@ get_header();
         LED - is going through major overhauls as part of an intelligent revolution in the lighting industry. We started MK Lighting with a vision of sustaining our environment by providing energy efficient lighting solutions. We strive to reinforce our belief in meeting intelligence in every aspect of our work.
       </p>
 </section>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
+
 <?php
 
 get_footer(); 

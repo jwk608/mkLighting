@@ -23,3 +23,14 @@ function mk_scripts(){
 
 
 }
+
+
+add_action( 'wp_footer', 'my_footer_scripts' );
+function my_footer_scripts(){
+    ?>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <?php
+}
