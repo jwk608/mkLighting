@@ -26,9 +26,9 @@ if ( ! defined( 'ABSPATH' ) ) {
             <div class="ha-header-bottom">
                 <nav>
                     <a href="<?php echo get_site_url()?>">HOME</a>
-                    <a href="<?php echo get_site_url()?>/about-us">About US</a>
-                    <a href="<?php echo get_site_url()?>/gallery">SOLUITION</a>
-                    <a href="<?php echo get_site_url()?>/contact-us">CONTACT US</a>
+                    <a href="<?php echo get_site_url()?>/about-us">ABOUT US</a>
+                    <a href="<?php echo get_site_url()?>/gallery">SOLUTION</a>
+                    <a href="<?php echo get_site_url()?>/contact-us" class="contact-us">CONTACT US</a>
                 </nav>
             </div>
         </div>
