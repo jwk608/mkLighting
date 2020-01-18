@@ -55,7 +55,13 @@ get_header();
     <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(133).jpg " style="width:100%">
   </div>
 </div>
+
+
 </section>
+    <div class="animated-background">
+
+    </div>
+
 <?php
 
 get_footer(); 
