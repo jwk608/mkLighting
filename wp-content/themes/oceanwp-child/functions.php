@@ -14,7 +14,7 @@ add_action( 'wp_enqueue_scripts', 'oceanwp_child_enqueue_parent_style' );
 add_action( 'wp_enqueue_scripts', 'mk_scripts' );
 
 function mk_scripts(){
-
+    wp_enqueue_style('google-font', 'https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,400i,500,700&display=swap');
 	wp_enqueue_style( 'slick-css' , "//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css");
 	wp_enqueue_script( 'slick-js', '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js');
     wp_enqueue_script('isotopes' , "https://unpkg.com/isotope-layout@2/dist/isotope.pkgd.min.js" );
