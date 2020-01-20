@@ -112,23 +112,38 @@ body {
 .pop-div-wrapper .box-shadow,.pop-div-wrapper-reverse .box-shadow {
   width: 75%;
 }
-.pop-div-wrapper-reverse .box-shadow {
-  float: right;
+.pop-div-wrapper-reverse {
+  .box-shadow {
+    float: right;
+    background: #5cb85c;
+  }
 }
 
-.pop-div {
-  padding-top: 80px;
-  padding-right: 20px;
-  padding-bottom: 80px;
-  padding-left: 20px;
-  text-align: center;
-  color: #fff;
-  background-color: #0056a8;
-}
+  .pop-div {
+    padding-top: 80px;
+    padding-right: 20px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #0056a8;
 
-.box-shadow { 
-  box-shadow: 10px 10px 0px rgba(0,0,0,.05);
-  height: 800px;
+    h2 {
+      font-size: 6em;
+      color: white;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-size: 23px;
+      padding: 20px 85px;
+    }
+  }
+
+  .box-shadow {
+    box-shadow: 10px 10px 0px rgba(0,0,0,.05);
+    height: 800px;
+  }
 }
 
   
