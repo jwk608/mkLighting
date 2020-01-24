@@ -14,7 +14,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
             data-aos="fade-down"
             data-aos-easing="linear"
-            data-aos-duration="1500">
+            data-aos-duration="200">
         <div class="ha-header-perspective">
             <div class="ha-header-front">
                 <h1><span>Header Effects</span></h1>

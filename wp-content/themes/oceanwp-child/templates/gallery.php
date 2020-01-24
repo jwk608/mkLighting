@@ -28,7 +28,7 @@ get_header();
   <div class="grid photo-column">
     <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" width="640" height="480" class="element-item transition light">
     <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg"  width="640" height="480" class="element-item transition metal">
-    <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg"  width="640" height="480" class="element-item transition light">
+    <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg" width="640" height="480" class="element-item transition light">
     <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(123).jpg"  width="640" height="480" class="element-item transition metal">
     <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(118).jpg" width="640" height="480" class="element-item transition light">
     <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(128).jpg"  width="640" height="480"class="element-item transition metal">
