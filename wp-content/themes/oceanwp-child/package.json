@@ -29,6 +29,7 @@
     "boostrap": "^2.0.0",
     "del": "^4.1.1",
     "gulp-sourcemaps": "^2.6.5",
-    "jquery-lazy": "^1.7.10"
+    "jquery-lazy": "^1.7.10",
+    "tippy.js": "^5.1.4"
   }
 }

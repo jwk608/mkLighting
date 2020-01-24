@@ -62,7 +62,8 @@ get_header();
     <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(133).jpg " style="width:100%">
   </div>
 </div>
-
+    <button data-tippy-content="Tooltip">Text</button>
+    <button data-tippy-content="Another Tooltip">Text</button>
 
 </section>
     <div class="animated-background">
@@ -75,7 +76,16 @@ get_header();
     <!-- cdnjs -->
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
     <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+    <script>
+        import tippy from 'tippy.js';
+        import 'tippy.js/dist/tippy.css';
+        tippy('button');
 
+
+
+    </script>
+    <script src="https://unpkg.com/popper.js@1"></script>
+    <script src="https://unpkg.com/tippy.js@5"></script>
 <?php
 
 get_footer(); 
