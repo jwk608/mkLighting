@@ -1,0 +1,66 @@
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 10px 100px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  transition: .5s;
+  z-index: 1;
+  background: white;
+  a, a:hover, a:focus {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    padding: 15px;
+  }
+  a:hover {
+    background-color: #13aff0;
+    color: white;
+  }
+}
+nav .logo
+{
+  float: left;
+}
+
+nav .logo img{
+  height: 80px;
+  transition: .5s;
+}
+nav ul {
+  float: right;
+  margin:0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  line-height: 80px;
+  color: #262626;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav ul li a.active {
+  color: blue;
+
+}
+a.contact-us {
+  background-color: white;
+  border: 4px solid #13aff0;
+  margin-left: 150px;
+}
+
+.ha-header-perspective {
+  text-align: center;
+}

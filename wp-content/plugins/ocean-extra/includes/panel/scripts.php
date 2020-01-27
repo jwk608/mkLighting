@@ -707,7 +707,7 @@ class Ocean_Extra_Scripts_Panel {
 			// Load fitVids js
 			if ( $fitVids ) {
 				$aFiles[] = $tDir .'devs/fitvids.js';
-				$aFiles[] = $tDir .'core/fitVids.js';
+				$aFiles[] = $tDir .'core/fitvids.js';
 			}
 
 			// Load fixedFooter js
@@ -1111,7 +1111,7 @@ class Ocean_Extra_Scripts_Panel {
 				$aFiles[] = $tDir .'blog/_gallery-format.scss';
 				$aFiles[] = $tDir .'blog/_link-format.scss';
 				$aFiles[] = $tDir .'blog/_quote-format.scss';
-				$aFiles[] = $tDir .'blog/_video-audio-format.scss';
+				$aFiles[] = $tDir .'blog/_video-audio-formats.scss';
 				$aFiles[] = $tDir .'blog/_single-content.scss';
 				$aFiles[] = $tDir .'blog/_single-post.scss';
 				$aFiles[] = $tDir .'blog/_single-tags.scss';
@@ -1201,7 +1201,7 @@ class Ocean_Extra_Scripts_Panel {
 
 		    	// Load wooMenuCart
 				if ( $wooMenuCart ) {
-					$aFiles[] = $tSass .'woo/_woo-cart.scss';
+					$aFiles[] = $tSass .'woo-mini-cart.scss';
 				}
 
 		    	// Load wooNav
@@ -1282,15 +1282,20 @@ class Ocean_Extra_Scripts_Panel {
 		if ( file_exists( self::get_file( 'js', 'path' ) ) ) {
 
 			// Unregister default scripts
+			wp_dequeue_script( 'oceanwp-main' );
 			wp_deregister_script( 'oceanwp-main' );
+			wp_dequeue_script( 'infinitescroll' );
 			wp_deregister_script( 'infinitescroll' );
 			if ( OCEANWP_WOOCOMMERCE_ACTIVE ) {
+				wp_dequeue_script( 'oceanwp-woocommerce' );
 				wp_deregister_script( 'oceanwp-woocommerce' );
 			}
 
 			// If the lightbox script is disabled
 			if ( ! self::get_setting( 'oe_lightbox_script' ) ) {
+				wp_dequeue_script( 'magnific-popup' );
 				wp_deregister_script( 'magnific-popup' );
+				wp_dequeue_script( 'oceanwp-lightbox' );
 				wp_deregister_script( 'oceanwp-lightbox' );
 			}
 
@@ -1308,20 +1313,26 @@ class Ocean_Extra_Scripts_Panel {
 		if ( file_exists( self::get_file( 'css', 'path' ) ) ) {
 
 			// Unregister default styles
+			wp_dequeue_style( 'oceanwp-style' );
 			wp_deregister_style( 'oceanwp-style' );
 			if ( ! self::get_setting( 'oe_fontAwesome_style' ) ) {
+				wp_dequeue_style( 'font-awesome' );
 				wp_deregister_style( 'font-awesome' );
 			}
 			if ( ! self::get_setting( 'oe_simpleLineIcons_style' ) ) {
+				wp_dequeue_style( 'simple-line-icons' );
 				wp_deregister_style( 'simple-line-icons' );
 			}
 			if ( ! self::get_setting( 'oe_slick_style' ) ) {
+				wp_dequeue_style( 'slick' );
 				wp_deregister_style( 'slick' );
 			}
 			if ( ! self::get_setting( 'oe_lightbox_script' ) ) {
+				wp_dequeue_style( 'magnific-popup' );
 				wp_deregister_style( 'magnific-popup' );
 			}
 			if ( OCEANWP_WOOCOMMERCE_ACTIVE ) {
+				wp_dequeue_style( 'oceanwp-woocommerce' );
 				wp_deregister_style( 'oceanwp-woocommerce' );
 			}
 

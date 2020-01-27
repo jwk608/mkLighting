@@ -97,7 +97,7 @@ class OWP_Install_Demos {
 							<div class="theme owp-open-popup" data-demo-id="<?php echo esc_attr( $demo ); ?>">
 
 								<div class="theme-screenshot">
-									<img src="https://raw.githubusercontent.com/oceanwp/oceanwp-sample-data/master/preview/<?php echo esc_attr( $demo ); ?>.jpg" />
+									<img src="https://demos.oceanwp.org/preview/<?php echo esc_attr( $demo ); ?>.jpg" />
 
 									<div class="demo-import-loader preview-all preview-all-<?php echo esc_attr( $demo ); ?>"></div>
 

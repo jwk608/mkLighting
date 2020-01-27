@@ -114,7 +114,7 @@ if ( ! class_exists( 'OceanWP_Demos' ) ) {
 		}
 
 		/**
-		 * Allows xml uploads so we can import from github
+		 * Allows xml uploads so we can import from server
 		 *
 		 * @since 1.0.0
 		 */
@@ -133,7 +133,7 @@ if ( ! class_exists( 'OceanWP_Demos' ) ) {
 		public static function get_demos_data() {
 
 			// Demos url
-			$url = 'https://raw.githubusercontent.com/oceanwp/oceanwp-sample-data/master/';
+			$url = 'https://demos.oceanwp.org/';
 
 			$data = array(
 
@@ -578,11 +578,6 @@ if ( ! class_exists( 'OceanWP_Demos' ) ) {
 								'slug'  	=> 'woocommerce',
 								'init'  	=> 'woocommerce/woocommerce.php',
 								'name'  	=> 'WooCommerce',
-							),
-							array(
-								'slug'  	=> 'woo-variation-swatches',
-								'init'  	=> 'woo-variation-swatches/woo-variation-swatches.php',
-								'name'  	=> 'WooCommerce Variation Swatches',
 							),
 						),
 						'premium' => array(
@@ -1434,7 +1429,7 @@ if ( ! class_exists( 'OceanWP_Demos' ) ) {
 
 			// No sample data found
 			if ( $response === false ) {
-				return new WP_Error( 'xml_import_error', __( 'Can not retrieve sample data xml file. GitHub may be down at the moment please try again later. If you still have issues contact the theme developer for assistance.', 'ocean-pro-demos' ) );
+				return new WP_Error( 'xml_import_error', __( 'Can not retrieve sample data xml file. The server may be down at the moment please try again later. If you still have issues contact the theme developer for assistance.', 'ocean-extra' ) );
 			}
 
 			// Write sample data content to temp xml file
@@ -1449,7 +1444,7 @@ if ( ! class_exists( 'OceanWP_Demos' ) ) {
 				$this->import_xml( $attachment_url );
 			} else {
 				// Import file can't be imported - we should die here since this is core for most people.
-				return new WP_Error( 'xml_import_error', __( 'The xml import file could not be accessed. Please try again or contact the theme developer.', 'ocean-pro-demos' ) );
+				return new WP_Error( 'xml_import_error', __( 'The xml import file could not be accessed. Please try again or contact the theme developer.', 'ocean-extra' ) );
 			}
 
 		}
@@ -1486,7 +1481,7 @@ if ( ! class_exists( 'OceanWP_Demos' ) ) {
 				if ( file_exists( $class_wp_importer ) ) {
 					require_once $class_wp_importer;
 				} else {
-					$importer_error = __( 'Can not retrieve class-wp-importer.php', 'ocean-pro-demos' );
+					$importer_error = __( 'Can not retrieve class-wp-importer.php', 'ocean-extra' );
 				}
 			}
 
@@ -1496,7 +1491,7 @@ if ( ! class_exists( 'OceanWP_Demos' ) ) {
 				if ( file_exists( $class_wp_import ) ) {
 					require_once $class_wp_import;
 				} else {
-					$importer_error = __( 'Can not retrieve wordpress-importer.php', 'ocean-pro-demos' );
+					$importer_error = __( 'Can not retrieve wordpress-importer.php', 'ocean-extra' );
 				}
 			}
 
@@ -1507,7 +1502,7 @@ if ( ! class_exists( 'OceanWP_Demos' ) ) {
 
 				// No error, lets import things...
 				if ( ! is_file( $file ) ) {
-					$importer_error = __( 'Sample data file appears corrupt or can not be accessed.', 'ocean-pro-demos' );
+					$importer_error = __( 'Sample data file appears corrupt or can not be accessed.', 'ocean-extra' );
 					return new WP_Error( 'xml_import_error', $importer_error );
 				} else {
 					$importer = new WP_Import();
