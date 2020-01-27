@@ -80,12 +80,16 @@ get_header();
         import tippy from 'tippy.js';
         import 'tippy.js/dist/tippy.css';
         tippy('button');
-
-
-
     </script>
     <script src="https://unpkg.com/popper.js@1"></script>
     <script src="https://unpkg.com/tippy.js@5"></script>
+    <script>
+
+        tippy('button', {
+            duration: 0,
+            arrow: false,
+        });
+    </script>
 <?php
 
 get_footer(); 
