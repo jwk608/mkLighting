@@ -25,12 +25,12 @@ get_header();
     <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active" data-interval="10000">
-                <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg" width="640" height="480" class="d-block w-100 element-item transition light">            </div>
+                <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg" class="d-block w-100 element-item transition light">            </div>
             <div class="carousel-item" data-interval="2000">
-                <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg" width="640" height="480" class="d-block w-100 element-item transition light">            </div>
+                <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg" class="d-block w-100 element-item transition light">            </div>
             </div>
             <div class="carousel-item">
-                <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" width="640" height="480" class="d-block w-100 element-item transition light">            </div>
+                <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg"  class="d-block w-100 element-item transition light">            </div>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
