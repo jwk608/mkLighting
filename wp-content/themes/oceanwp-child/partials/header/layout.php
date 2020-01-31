@@ -15,23 +15,14 @@ if ( ! defined( 'ABSPATH' ) ) {
             data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="200">
-        <div class="ha-header-perspective">
-            <div class="ha-header-front">
-                <h1><span>Header Effects</span></h1>
-                <nav>
-                    <a>‹ Previous Demo</a>
-      
-                </nav>
-            </div>
-            <div class="ha-header-bottom">
+
                 <nav>
                     <a href="<?php echo get_site_url()?>">HOME</a>
                     <a href="<?php echo get_site_url()?>/about-us">ABOUT US</a>
                     <a href="<?php echo get_site_url()?>/gallery">SOLUTION</a>
                     <a href="<?php echo get_site_url()?>/contact-us" class="contact-us">CONTACT US</a>
                 </nav>
-            </div>
-        </div>
+
     </header>
 
 <!--    <nav>-->

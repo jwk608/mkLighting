@@ -1,16 +1,17 @@
 nav{
-  position: fixed;
-  top: 0;
-  left: 0;
+  display: flex;
+  justify-content: center;
   width: 100%;
-  height: 100px;
-  padding: 28px 100px;
+  padding: 23px 100px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   transition: .5s;
   z-index: 1;
   background: white;
+  height: 100px;
+
+
   a, a:hover, a:focus {
     text-decoration: none;
     -webkit-transition: all 0.3s ease;
