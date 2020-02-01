@@ -21,27 +21,28 @@ get_header();
 <h1>photo gallery</h1>
 
 </div>
-
-    <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active" data-interval="10000">
-                <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg" class="d-block w-100 element-item transition light">            </div>
-            <div class="carousel-item" data-interval="2000">
-                <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg" class="d-block w-100 element-item transition light">            </div>
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-                <img class="lazy" data-src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg"  class="d-block w-100 element-item transition light">            </div>
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(123).jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg" alt="Third slide">
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
     </div>
+
 <!-- Photo Grid -->
 <div class="photo-row"> 
   <div class="grid photo-column">

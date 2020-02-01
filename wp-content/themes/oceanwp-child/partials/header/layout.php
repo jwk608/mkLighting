@@ -15,7 +15,6 @@ if ( ! defined( 'ABSPATH' ) ) {
             data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="200">
-
                 <nav>
                     <a href="<?php echo get_site_url()?>">HOME</a>
                     <a href="<?php echo get_site_url()?>/about-us">ABOUT US</a>

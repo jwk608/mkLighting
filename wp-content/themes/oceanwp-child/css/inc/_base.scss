@@ -15,22 +15,6 @@ body {
 .section-gray {
   background-color: rgba(0,0,0,.05);
 }
-.ha-header-rotate {
-  height: 220px;
-  top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.ha-header-rotate .ha-header-front {
-  transform: translateY(-100%) rotateX(90deg);
-}
-
-.ha-header-rotate .ha-header-bottom {
-  top: 50%;
-  transition: transform 0.5s;
-  transform: rotateX(0deg) translateY(-100%);
-}
 
 .parallax { 
     /* The image used */
@@ -145,6 +129,5 @@ body {
     box-shadow: 10px 10px 0px rgba(0,0,0,.05);
     height: 800px;
   }
-}
 
-  
+
