@@ -16,6 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
             data-aos-easing="linear"
             data-aos-duration="200">
                 <nav>
+                    <a href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?> images/logo.png" alt=""></a>
                     <a href="<?php echo get_site_url()?>">HOME</a>
                     <a href="<?php echo get_site_url()?>/about-us">ABOUT US</a>
                     <a href="<?php echo get_site_url()?>/gallery">SOLUTION</a>
