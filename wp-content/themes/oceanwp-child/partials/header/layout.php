@@ -15,13 +15,18 @@ if ( ! defined( 'ABSPATH' ) ) {
             data-aos="fade-down"
             data-aos-easing="linear"
             data-aos-duration="200">
-                <nav>
-                    <a href="/"><img src="<?php echo get_stylesheet_directory_uri(); ?> images/logo.png" alt=""></a>
-                    <a href="<?php echo get_site_url()?>">HOME</a>
-                    <a href="<?php echo get_site_url()?>/about-us">ABOUT US</a>
-                    <a href="<?php echo get_site_url()?>/gallery">SOLUTION</a>
-                    <a href="<?php echo get_site_url()?>/contact-us" class="contact-us">CONTACT US</a>
-                </nav>
+
+        <nav>
+            <div class="inline">            <a href="/" class="logo"><img src="http://mklighting.test:3001/wp-content/uploads/2020/02/MK-lighting-ff-01.jpg" alt=""></a>
+            </div>
+            <div class="inline">
+                <a href="<?php echo get_site_url()?>">HOME</a>
+                <a href="<?php echo get_site_url()?>/about-us">ABOUT US</a>
+                <a href="<?php echo get_site_url()?>/gallery">SOLUTION</a>
+                <a href="<?php echo get_site_url()?>/contact-us" class="contact-us">CONTACT US</a>
+            </div>
+
+        </nav>
 
     </header>
 
