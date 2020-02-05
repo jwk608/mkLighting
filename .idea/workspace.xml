@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d12212fc-d574-4774-b577-00dc11114210" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/oceanwp-child/css/inc/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/oceanwp-child/css/inc/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/themes/oceanwp-child/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/oceanwp-child/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +112,16 @@
       <workItem from="1579052932330" duration="2176000" />
       <workItem from="1579142037043" duration="2859000" />
       <workItem from="1579232361063" duration="722000" />
+      <workItem from="1580138958066" duration="607000" />
+      <workItem from="1580186174766" duration="975000" />
+      <workItem from="1580270365106" duration="1218000" />
+      <workItem from="1580357925212" duration="1774000" />
+      <workItem from="1580444903400" duration="1853000" />
+      <workItem from="1580526967914" duration="1224000" />
+      <workItem from="1580604143421" duration="1970000" />
+      <workItem from="1580704579579" duration="834000" />
+      <workItem from="1580786622896" duration="3103000" />
+      <workItem from="1580877249505" duration="729000" />
     </task>
     <servers />
   </component>
@@ -138,17 +146,17 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1114" y="624" key="NewPhpFileDialog/-1080.0.1080.1880/0.0.2560.1400@0.0.2560.1400" timestamp="1579056671155" />
-    <state x="976" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1579232393587">
+    <state x="976" y="525" key="com.intellij.ide.util.TipDialog" timestamp="1580877534947">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="976" y="525" key="com.intellij.ide.util.TipDialog/-1080.0.1080.1880/0.0.2560.1400@0.0.2560.1400" timestamp="1579232393587" />
-    <state x="976" y="432" width="607" height="536" key="find.popup" timestamp="1579147143851">
+    <state x="976" y="525" key="com.intellij.ide.util.TipDialog/-1080.0.1080.1880/0.0.2560.1400@0.0.2560.1400" timestamp="1580877534947" />
+    <state x="976" y="432" width="607" height="536" key="find.popup" timestamp="1580787997823">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="976" y="432" width="607" height="536" key="find.popup/-1080.0.1080.1880/0.0.2560.1400@0.0.2560.1400" timestamp="1579147143851" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1579143268635">
+    <state x="976" y="432" width="607" height="536" key="find.popup/-1080.0.1080.1880/0.0.2560.1400@0.0.2560.1400" timestamp="1580787997823" />
+    <state x="943" y="315" width="672" height="160" key="search.everywhere.popup" timestamp="1580788043140">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/-1080.0.1080.1880/0.0.2560.1400@0.0.2560.1400" timestamp="1579143268635" />
+    <state x="943" y="315" width="672" height="160" key="search.everywhere.popup/-1080.0.1080.1880/0.0.2560.1400@0.0.2560.1400" timestamp="1580788043140" />
   </component>
 </project>
