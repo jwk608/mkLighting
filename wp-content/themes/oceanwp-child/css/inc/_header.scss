@@ -16,13 +16,16 @@
     transition: .5s;
     z-index: 1;
     background: white;
+
     .inline {
       display: inline-block;
     }
+
     a {
       color: black;
       font-size: 15px;
     }
+
     .logo {
       align-self: center;
     }
@@ -71,7 +74,9 @@
       color: white;
     }
 
-  } //end nav
+  }
+
+  //end nav
 
 }
 
