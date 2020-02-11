@@ -269,6 +269,13 @@ get_header();
             <div class="slide"><img src="https://www.solodev.com/assets/carousel/image8.png"></div>
         </div>
     </section>
+    <section class="lets-connect">
+        <div class="center">
+            <h2 class="section-h2 white">Lets Connect!</h2>
+        </div>
+
+        <div class="whitespace"></div>
+    </section>
 
 <?php
 
