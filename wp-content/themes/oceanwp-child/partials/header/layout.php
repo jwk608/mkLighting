@@ -10,16 +10,15 @@ if (!defined('ABSPATH')) {
     exit;
 }
 ?>
-    <header id="ha-header" class="ha-header ha-header-large"
+    <header id="ha-header" class="ha-header ha-header-large">
 
-            data-aos="fade-down"
-            data-aos-easing="linear"
-            data-aos-duration="200">
-
-        <nav>
-            <div class="inline"><a href="/" class="logo"><img
+        <nav id="mainNav">
+            <div class="inline">
+                <a href="/" class="logo">
+                    <img
                         src="http://mklighting.test:3001/wp-content/uploads/2020/02/MK-lighting-ff-01.jpg"
-                        alt=""></a>
+                        alt="">
+                </a>
             </div>
             <div class="inline">
                 <a href="<?php echo get_site_url() ?>">HOME</a>

@@ -4,9 +4,15 @@
 @import '_animation.scss';
 @import '_typography.scss';
 @import '_layout.scss';
+@import '_utility.scss';
 @import 'pages/_about.scss';
 @import 'pages/_gallery.scss';
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 html,
 body {
   height: 100%;

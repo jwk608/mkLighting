@@ -13,12 +13,15 @@
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    transition: .5s;
     z-index: 1;
     background: white;
+    transition: background 0.4s;
+    transition: .5s;
+
 
     .inline {
-      display: inline-block;
+      display: flex;
+      align-items: center;
     }
 
     a {
@@ -32,7 +35,7 @@
 
     .logo img {
       height: 80px;
-      transition: .5s;
+      transition: height .4s;
     }
 
     ul {
