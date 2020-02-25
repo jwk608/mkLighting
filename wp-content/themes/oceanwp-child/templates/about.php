@@ -139,8 +139,8 @@ get_header();
              data-aos-duration="1500">
 
         <div class="parallax">
-            <h1>About us</h1>
-
+            <h1>About us
+            <span>MK LIGHTING </span></h1>
         </div>
 
     </section>
