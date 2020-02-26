@@ -24,6 +24,30 @@ body {
   background-color: rgba(0,0,0,.05);
 }
 
+a.contact-us-btn:link,
+a.contact-us-btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all .3s ease;
+}
+
+a.contact-us-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,.2);
+}
+a.contact-us-btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+a.contact-us-btn {
+  background-color: #fff;
+  color: #777
+}
+
 .parallax {
    /* Set a specific height */
    height: 1000px;

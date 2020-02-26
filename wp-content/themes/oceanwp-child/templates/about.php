@@ -274,7 +274,9 @@ get_header();
             <h2 class="section-h2 white">Lets Connect!</h2>
         </div>
 
-        <a class="contact-us" href="/contact">To Contact Page</a>
+       <div class="center">
+           <a class="contact-us-btn" href="/contact">To Contact Page</a>
+       </div>
 
         <div class="whitespace"></div>
     </section>
