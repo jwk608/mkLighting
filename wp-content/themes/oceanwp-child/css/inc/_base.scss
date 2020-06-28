@@ -8,6 +8,7 @@
 @import '_utility.scss';
 @import 'pages/_about.scss';
 @import 'pages/_gallery.scss';
+@import 'pages/_contact.scss';
 
 * {
   box-sizing: border-box;
@@ -17,6 +18,10 @@
 html,
 body {
   height: 100%;
+}
+
+h2 {
+  font-weight: 200;
 }
 #site-header{
     background-color:white !important;
@@ -121,7 +126,7 @@ a.contact-us-btn {
 .three-col{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%
 }
   

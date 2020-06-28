@@ -144,6 +144,25 @@ get_header();
         </div>
 
     </section>
+
+    <section class="section-gray content about shell">
+
+        <div class="three-col">
+            <div class="col-item">
+                <i class="fa fa-shield fade-in one"></i>
+                <h4>Guarenteed Instant Energy Saving</h4>
+            </div>
+            <div class="col-item">
+                <i class="fa fa-calendar fade-in one"></i>
+                <h4>spend your time wisely</h4>
+            </div>
+            <div class="col-item">
+                <i class="fa fa-bolt fade-in one"></i>
+                <h4>Lighting & electric</h4>
+            </div>
+        </div>
+
+    </section>
     <section class="section-gray content about ha-waypoint" data-animate-down="ha-header-small"
              data-animate-up="ha-header-large">
 
@@ -181,7 +200,9 @@ get_header();
     <div class="pop-div-wrapper">
         <div class="pop-div box-shadow" data-aos="fade-down">
             <h2>Benefits</h2>
-            <p>Guarenteed Instant Energy Saving MK Lighting Inc has always dreamt of the better and brighter tomorrow of
+            <p> Are you doing everything you can do to save energy?
+
+                We provide instGuarenteed Instant Energy Saving MK Lighting Inc has always dreamt of the better and brighter tomorrow of
                 the lighting industry. You can count on the extensive knowledge of the MK Lighting team to obtain local
                 utility rebates and utilize the best LED solutions to reduce your overall costs.
 
@@ -209,29 +230,18 @@ get_header();
     <div class="pop-div-wrapper-reverse">
         <div class="pop-div box-shadow" data-aos="fade-down">
             <h2>Our Products</h2>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/Led.png" alt="">
+
             <p>We offer certified indoor and outdoor LED lamps and luminaires
                 MK Lighting Inc has always dreamt of the better and brighter tomorrow of the lighting industry. You can
                 count on the extensive knowledge of the MK Lighting team to obtain local utility rebates and utilize the
                 best LED solutions to reduce your overall costs.
+                This statewide initiative works for and with the community to implement cleaner energy solutions to scale back our impact on the environment.
 
-                Our World-Class - highly qualified team understands the science and art of Lighting and hence, our
-                services are the combination of Intelligence and Innovation. Our product quality, cost-competitiveness
-                and world-class customer responsiveness make us the preferred, trusted partner to clients worldwide.
+                Incentive and rebate programs offer customers cash incentives to offset project costs so that businesses can save money and use energy more effectively.
 
-                LED - is going through major overhauls as part of an intelligent revolution in the lighting industry. We
-                started MK Lighting with a vision of sustaining our environment by providing energy efficient lighting
-                solutions. We strive to reinforce our belief in meeting intelligence in every aspect of our work.
-                MK Lighting Inc has always dreamt of the better and brighter tomorrow of the lighting industry. You can
-                count on the extensive knowledge of the MK Lighting team to obtain local utility rebates and utilize the
-                best LED solutions to reduce your overall costs.
-
-                Our World-Class - highly qualified team understands the science and art of Lighting and hence, our
-                services are the combination of Intelligence and Innovation. Our product quality, cost-competitiveness
-                and world-class customer responsiveness make us the preferred, trusted partner to clients worldwide.
-
-                LED - is going through major overhauls as part of an intelligent revolution in the lighting industry. We
-                started MK Lighting with a vision of sustaining our environment by providing energy efficient lighting
-                solutions. We strive to reinforce our belief in meeting intelligence in every aspect of our work.</p>
+                By installing fixtures and lamps that are Design Light Consortium and EnergyStar qualified and approved, customers are assured that quality products are being used.
+             </p>
         </div>
 
     </div>
@@ -242,13 +252,7 @@ get_header();
                 count on the extensive knowledge of the MK Lighting team to obtain local utility rebates and utilize the
                 best LED solutions to reduce your overall costs.
 
-                Our World-Class - highly qualified team understands the science and art of Lighting and hence, our
-                services are the combination of Intelligence and Innovation. Our product quality, cost-competitiveness
-                and world-class customer responsiveness make us the preferred, trusted partner to clients worldwide.
-
-                LED - is going through major overhauls as part of an intelligent revolution in the lighting industry. We
-                started MK Lighting with a vision of sustaining our environment by providing energy efficient lighting
-                solutions. We strive to reinforce our belief in meeting intelligence in every aspect of our work.</p>
+            </p>
         </div>
 
     </div>
@@ -271,7 +275,7 @@ get_header();
     </section>
     <section class="lets-connect">
         <div class="center">
-            <h2 class="section-h2 white">Lets Connect!</h2>
+            <h2 class="section-h2 white">Connect with us now!</h2>
         </div>
 
        <div class="center">

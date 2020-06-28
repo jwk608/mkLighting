@@ -1,7 +1,12 @@
-.bg-black {
-  background: #333 !important;
-}
-.text-white a {
-  color: #eee !important;
-}
+.bg-black {  background: #333 !important;  }
+.text-white a {  color: #eee !important;  }
 
+.shell {
+  max-width: calc(1430px + 15vw);
+  padding-right: 7.5vw;
+  padding-left: 7.5vw;
+  margin: 0 auto;
+}
+.font-black {  color: black !important;  }
+
+.line-height-20 {  line-height: 20px;  }

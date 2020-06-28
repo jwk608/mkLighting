@@ -72,7 +72,7 @@ if ( 'fullscreen' == oceanwp_mobile_menu_style() ) {
 </body>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-    AOS.init();
+    AOS.init({once: true});
 </script>
 </html>
 
