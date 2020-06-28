@@ -21,11 +21,11 @@ get_header();
     <div class="center">
         <div class="contact-form">
             <?php
-            if (preg_match('mk-lighting', $_SERVER['HTTP_HOST'])) {
+            if (preg_match('/mk-lighting/', $_SERVER['HTTP_HOST'])) {
                 echo do_shortcode(
                     '[contact-form-7 id="196" title="contact us"]'
                 );
-            } else if (preg_match('localhost', $_SERVER['HTTP_HOST'])) {
+            } else if (preg_match('/localhost/', $_SERVER['HTTP_HOST'])) {
                 echo do_shortcode(
                     '[contact-form-7 id="188" title="contact us"]'
                 );
