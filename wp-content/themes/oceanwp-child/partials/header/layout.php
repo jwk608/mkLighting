@@ -16,8 +16,8 @@ if (!defined('ABSPATH')) {
             <div class="inline">
                 <a href="/" class="logo">
                     <img
-                        src="http://mklighting.test:3001/wp-content/uploads/2020/02/MK-lighting-ff-01.jpg"
-                        alt="">
+                        src="<?php echo get_stylesheet_directory_uri() ?> /assets/images/logo.png"
+                        alt="logo">
                 </a>
             </div>
             <div class="inline">
