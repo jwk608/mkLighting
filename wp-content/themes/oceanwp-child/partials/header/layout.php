@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) {
             <div class="inline">
                 <a href="/" class="logo">
                     <img
-                        src="<?php echo get_stylesheet_directory_uri() ?> /assets/images/logo.png"
+                        src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/logo.png"
                         alt="logo">
                 </a>
             </div>
