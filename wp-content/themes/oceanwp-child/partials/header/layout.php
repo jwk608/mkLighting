@@ -25,8 +25,8 @@ if (!defined('ABSPATH')) {
 <!--                <a href="--><?php //echo get_site_url() ?><!--/about-us">ABOUT US</a>-->
 <!--                <a href="--><?php //echo get_site_url() ?><!--/gallery">SOLUTION</a>-->
 
-                <a href="--><?php //echo get_site_url() ?><!--/projects">PROJECTS</a>
-                <a href="--><?php //echo get_site_url() ?><!--/solutions">SOLUTIONS</a>
+                <a href="<?php echo get_site_url() ?>/projects">PROJECTS</a>
+                <a href="<?php echo get_site_url() ?>/solutions">SOLUTIONS</a>
                 <a href="<?php echo get_site_url() ?>/contact-us" class="contact-us">CONTACT US</a>
             </div>
 
