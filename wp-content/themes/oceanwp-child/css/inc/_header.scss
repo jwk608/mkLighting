@@ -41,6 +41,7 @@
 
     .logo img {
       height: 80px;
+      min-width: 78px;
       transition: height .4s;
     }
 
@@ -132,5 +133,15 @@ a.contact-us {
     -moz-box-shadow: 0 0 7px rgba(0, 0, 0, 0.1) !important;
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.1) !important;
   }
+}
+
+@media (max-width: 1500px) {
+  #ha-header {
+    nav {
+      padding-right: 2vw;
+      padding-left: 2vw
+    }
+  }
+;
 }
 
