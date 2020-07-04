@@ -20,7 +20,7 @@ if (!defined('ABSPATH')) {
                         alt="logo">
                 </a>
             </div>
-            <div class="inline">
+            <div class="desktop-menu inline">
                 <a href="<?php echo get_site_url() ?>">HOME</a>
 <!--                <a href="--><?php //echo get_site_url() ?><!--/about-us">ABOUT US</a>-->
 <!--                <a href="--><?php //echo get_site_url() ?><!--/gallery">SOLUTION</a>-->
@@ -28,6 +28,32 @@ if (!defined('ABSPATH')) {
                 <a href="<?php echo get_site_url() ?>/projects">PROJECTS</a>
                 <a href="<?php echo get_site_url() ?>/solutions">SOLUTIONS</a>
                 <a href="<?php echo get_site_url() ?>/contact-us" class="contact-us">CONTACT US</a>
+            </div>
+            <div class="mobile-menu" style="display: none">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger">
+                    <div></div>
+                </div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li class="underline">
+                                    <a href="<?php echo get_site_url() ?>">HOME</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo get_site_url() ?>/projects">PROJECTS</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo get_site_url() ?>/solutions">SOLUTIONS</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo get_site_url() ?>/contact-us">CONTACT US</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 

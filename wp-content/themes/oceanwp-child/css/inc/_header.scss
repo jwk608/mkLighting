@@ -41,7 +41,7 @@
 
     .logo img {
       height: 80px;
-      min-width: 78px;
+      min-width: 61px;
       transition: height .4s;
     }
 
@@ -50,6 +50,7 @@
       margin: 0;
       padding: 0;
       display: flex;
+      flex-direction: column;
     }
 
     ul li {
@@ -64,10 +65,7 @@
       text-transform: uppercase;
     }
 
-    ul li a.active {
-      color: blue;
-
-    }
+    ul li a.active { color: blue; }
 
     a, a:hover, a:focus {
       text-decoration: none;
@@ -80,14 +78,178 @@
 
     }
 
-    a:hover {
-      color: #13aff0;
-    }
+    a:hover { color: #13aff0; }
 
   }
 
   //end nav
 
+  //hamburger start
+  :root {
+    --primary-color: rgba(13, 110, 139, 0.75);
+    --overlay-color: rgba(24, 39, 51, 0.85);
+    --menu-speed: 0.75s;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+
+    .toggler {
+
+      /* Toggler Animate*/
+      position: absolute;
+      top: 16px;
+      right: 57px;
+      z-index: 2;
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
+      opacity: 0;
+
+      &:checked {
+        & ~ .menu {
+          visibility: visible;
+          & > div {
+            transform: scale(1);
+            transition-duration: var(--menu-speed);
+            & > div {
+              opacity: 1;
+              transition: opacity 0.4s ease;
+            }
+
+          }
+
+        }
+
+
+        & + .hamburger > div {
+          /* Turn lines into X on check*/
+          &:before, &:after {
+            top: 0;
+            transform: rotate(90deg);
+          }
+          transform: rotate(135deg);
+        }
+        /* Rotate on hover when checked */
+        &:hover + .hamburger > div {
+          transform: rotate(225deg)          ;
+        }
+
+      }
+
+
+    }
+
+    .hamburger {
+      position: absolute;
+      top: 16px;
+      right: 57px;
+      z-index: 1;
+      width: 46px;
+      height: 60px;
+      padding: 1rem;
+      background: var(--primary-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      & > div {
+        transition: all 0.4s ease;
+
+        /* Top and Bottom Burger Lines*/
+        &:before, &:after {
+          content: '';
+          position: absolute;
+          z-index: 1;
+          top: -7px;
+          width: 100%;
+          height: 2px;
+          background: inherit;
+        }
+        /* Top Burger Line Down*/
+        &:after {
+          top: 7px;
+        }
+
+        position: relative;
+        width: 100%;
+        height: 2px;
+        background-color: $base-font-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .menu {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      visibility: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      & > div {
+        background: rgba(24, 39, 51, 0.85);
+        border-radius: 50%;
+        width: 200vw;
+        height: 200vh;
+        display: flex;
+        flex: none;
+        align-items: center;
+        justify-content: center;
+        transform: scale(0);
+        transition: all 0.4s ease;
+
+        & > div {
+          text-align: center;
+          max-width: 90vw;
+          max-height: 100vh;
+          opacity: 0;
+          transition: opacity 0.4s ease;
+
+          & > ul > li {
+            list-style: none;
+            color: #fff;
+            font-size: 1.5rem;
+            padding: 1rem;
+
+            & > a {
+              color: #fff;
+              //text-decoration: none;
+              //transition: color 0.4s ease;
+              //border: none;
+              //background-color: transparent;
+              padding: 1rem;
+
+              &:focus, &:active {
+                color: $base-font-color;
+              }
+            }
+
+            &:hover > a {
+              border-bottom: 1px solid $base-font-color;
+              padding: 1rem;
+              color: $base-font-color;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+
+  //hamburger ends
 }
 #main {  margin-top: 7.5em; }
 

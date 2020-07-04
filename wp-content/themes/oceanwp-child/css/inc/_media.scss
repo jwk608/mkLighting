@@ -1,0 +1,23 @@
+@media (max-width: $break-tiny) {
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: $break-small) {
+
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: $break-medium) {
+    .desktop-menu {
+      display: none !important;
+    }
+    .mobile-menu {
+      display: block !important;
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: $break-large) {
+
+}
