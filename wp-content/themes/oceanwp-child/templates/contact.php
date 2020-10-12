@@ -18,14 +18,14 @@ get_header();
 </section>
 <section class="slanted section-gray diagonal top section-padding-bottom">
 
-    <div class="center">
+    <div class="center flex-tablet">
         <div class="contact-form">
             <?php
             if (preg_match('/mk-lighting/', $_SERVER['HTTP_HOST'])) {
                 echo do_shortcode(
                     '[contact-form-7 id="196" title="contact us"]'
                 );
-            } else if (preg_match('/localhost/', $_SERVER['HTTP_HOST'])) {
+            } else {
                 echo do_shortcode(
                     '[contact-form-7 id="188" title="contact us"]'
                 );
@@ -36,20 +36,23 @@ get_header();
         </div>
         <div class="how-can-we-help">
             <h3>Talk With Us!</h3>
-            <p class="line-height-20">We are always ready to answer any <br>
-                questions that interest you.</p>
-            <p>
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <a href="mail:info@mklighting.com">info@mklighting.com</a>
-            </p>
-            <p>
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <a href="tel:201-470-3588">(201) 470-3588</a>
-            </p>
-            <p>
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                 120 Industrial Ave, Little Ferry, NJ 07643
-            </p>
+            <div>
+                <p class="line-height-20">We are always ready to answer any <br>
+                    questions that interest you.</p>
+                <p>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <a href="mailto:info@mklighting.com">info@mklighting.com</a>
+                </p>
+                <p>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <a href="tel:201-470-3588">(201) 470-3588</a>
+                </p>
+                <p>
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    120 Industrial Ave, Little Ferry, NJ 07643
+                </p>
+            </div>
+
 
         </div>
     </div>
