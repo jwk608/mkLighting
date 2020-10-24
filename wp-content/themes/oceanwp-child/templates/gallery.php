@@ -21,7 +21,7 @@ get_header();
     <section>
 
         <div class="parallax">
-            <h1>Our Works</h1>
+            <h1>Our Work</h1>
 
         </div>
         <section class="section__gallery">
