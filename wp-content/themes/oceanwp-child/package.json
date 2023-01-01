@@ -22,7 +22,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-sass-lint": "^1.4.0",
-    "webpack": "^4.30.0"
+    "webpack": "^5.75.0"
   },
   "dependencies": {
     "aos": "^2.3.4",
